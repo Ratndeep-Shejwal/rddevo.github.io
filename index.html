@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio </title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+    <div class="container">
+        <div class="menu">
+            <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+            <a href="#about" class="menu-icon fas fa-user"></a>
+            <a href="#projects" class="menu-icon fas fa-code"></a>
+            <a href="#experience" class="menu-icon fas fa-briefcase"></a>
+            <a href="#contact" class="menu-icon fas fa-envelope"></a>
+        </div>
+
+        <div class="portfolio">
+
+            <section class="header">
+                <img class="header-img" src="profile.jpg" alt="" />
+                <h1>RdDevo.</h1>
+                <h2>Frontend Developer | Python Developer</h2>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/ratndeep-shejwal-8b4b40208" target="_blank" class="fab fa-linkedin-in" id="profile-link"></a>
+                    <a href="https://github.com/Ratndeep-Shejwal" target="_blank" class="fab fa-github"></a>
+                    <a href="https://twitter.com/ratnnn__?t=73xs_lSLKnunXmzCYzXO1Q&s=09" target="_blank" class="fab fa-twitter"></a>
+                </div>
+                <a href="Resume.pdf" class="cta">Download CV</a>
+            </section>
+
+            <div class="content">
+
+                <section class="content-card home" id="welcome-section">
+                    <h1>Hello, I am Ratndeep Shejwal</h1>
+                </section>
+
+                <section class="content-card about" id="about">
+                    <h1>About me</h1>
+                    <div class="about-item about-me">
+                        <p>
+                            Computer Science student with a passion for innovation, problem
+                            solving, and programming. Experienced in developing software
+                            applications, troubleshooting technical issues, and working with
+                            computer networks and systems. Seeking an opportunity to
+                            apply my knowledge of computer science to a challenging role.
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <div class="about-item skills">
+                            <h1>Tech-Stack</h1>
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">Python</span>
+                            <span class="skill">C</span>
+                            <span class="skill">Java</span>
+                        </div>
+
+                        <div class="about-item languages">
+                            <h1>Tech-Stats</h1>
+                            <div class="language">
+                                <p>Frontend Development</p>
+                                <span class="bar"><span class="web-development"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>Python</p>
+                                <span class="bar"><span class="python"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>Java</p>
+                                <span class="bar"><span class="java"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-card projects" id="projects">
+                    <h1>Projects</h1>
+                    <div class="col-2 project-list">
+                        <div class="project-tile">
+                            <img src="Project1.png" alt=""/>
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Project-1</h3>
+                                    <p>
+                                        Personal Portfolio Website using HTML and CSS
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Ratndeep-Shejwal">see more...</a>
+                </section>
+
+                <section class="content-card experience" id="experience">
+                    <h1>Experience</h1>
+                    <div class="timeline">
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-date">4th March 2023</div>
+                                <div class="timeline-content">
+                                    <h3>Hackathon - Algorithm 7.0</h3>
+                                    <p>
+                                        A 32 hour hackathon based on "UNITED NATIONS SUSTAINABLE DEVELOPMENT GOALS"
+                                        organised by ANJUMAN-I-ISLAM'S KALSEKAR TECHNICAL CAMPUS
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">14th-16th February 2023</div>
+                                <div class="timeline-content">
+                                    <h3>Hackathon - Nirman 23"</h3>
+                                    <p>
+                                        A 48 hour hackathon organised by AMITY SCHOOL OF ENGINEERING AND TECHNOLOGY,
+                                        AMITY UNIVERSITY MUMBAI
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-card contact" id="contact">
+                    <h1>Contact</h1>
+                    <form class="form" id="form" action="mailto: ratndeepshejwal@gmail.com">
+                        <div class="input-box">
+                            <input type="text" class="text-input" name="name" placeholder="Name" />
+                        </div>
+                        <div class="input-box">
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="input-box">
+                            <input type="subject" class="text-input" name="subject" id="subject"
+                                placeholder="Subject" />
+                        </div>
+                        <div class="input-box">
+                            <textarea name="text" class="message" placeholder="Message..."></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" class="submit-btn" id="submit" value="submit" />
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
