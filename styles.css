@@ -36,7 +36,10 @@
 html {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background: linear-gradient(90deg, rgba(13, 28, 43, 0.9) 0%, hsla(211, 35%, 34%, 0.6) 80%, hsla(211, 32%, 42%, 0.6) 100%), url(hero-bg.jpg);
+  background-size: cover ;
+  background-attachment: fixed;
 }
 
 a {
